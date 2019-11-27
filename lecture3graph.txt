@@ -1,0 +1,20 @@
+digraph testcase1
+{
+0[ label = B0 ];
+1[ label = B1 ];
+2[ label = B2 ];
+3[ label = B3 ];
+4[ label = B4 ];
+5[ label = B5 ];
+6[ label = B6 ];
+7[ label = B7 ];
+8[ label = B8 ];
+5 -> 4;
+3 -> 2;
+7 -> 6;
+3 -> 1;
+7 -> 5;
+8 -> 7;
+1 -> 0;
+5 -> 3;
+}
